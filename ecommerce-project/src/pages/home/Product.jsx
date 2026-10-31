@@ -68,6 +68,7 @@ export function Product({ loadCart, product }) {
 
       <button
         className="add-to-cart-button button-primary"
+        data-testid="add-to-cart-button"
         onClick={async () => {
           addToCart();
         }}
